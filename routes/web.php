@@ -38,3 +38,6 @@ Route::get('/Dashboard.Admin.php', function () {
 Route::get('/Dashboard.User.php', function () {
     return view('Dashboard.User');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

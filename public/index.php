@@ -58,4 +58,4 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
-/* esto es una practica */
+/* vero hace prueba */
